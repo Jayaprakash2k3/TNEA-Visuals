@@ -1,0 +1,26 @@
+<html>
+    <head>
+    </head>
+    <h1>
+        Hello
+    </h1>
+    <div id="chart"></div>
+    <script>    
+        const data = null;
+
+const xhr = new XMLHttpRequest();
+xhr.withCredentials = true;
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("GET", "http://52.90.187.17:8080/tngasa");
+xhr.setRequestHeader("Accept", "*/*");
+xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
+xhr.send(data);
+ 
+      </script>
+</html>
