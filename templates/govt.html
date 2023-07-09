@@ -1,0 +1,126 @@
+<div
+    class="relative px-5 py-3 border-2 bg-violet-50 text-violet-700 border-violet-100 rounded mb-3 font-bold text-center text-2xl">
+    GOVERNMENT
+</div>
+<div class="nav-tabs bar-tabs w-full">
+    <ul class="nav text-sm font-medium text-center text-gray-500  rounded-lg shadow sm:flex w-full overflow-hidden">
+        <li class="w-full">
+            <a href="javascript:void(0);" data-tw-toggle="tab" data-tw-target="govt-chart"
+                class="inline-block w-full p-4 active">Charts</a>
+        </li>
+        <li class="w-full border-x border-gray-50">
+            <a href="javascript:void(0);" data-tw-toggle="tab" data-tw-target="govt-table"
+                class="inline-block w-full p-4 ">Table</a>
+        </li>
+
+    </ul>
+    <div class="tab-content mt-5">
+        <div class="tab-pane block" id="govt-chart">
+            <div id="government" class="animate-pulse">
+
+                <div class="grid grid-cols-1 xl:grid-cols-12 gap-5">
+                    <div class="col-span-6">
+                        <div class="card ">
+                            <div class="card-body pb-0">
+                                <h6 class="mb-1 text-15 text-gray-600">Pie Chart</h6>
+                            </div>
+                            <div class="card-body flex flex-wrap gap-3">
+                                <div id="govt" class="w-full" dir="ltr"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-span-6">
+                        <div class="card ">
+                            <div class="card-body pb-0">
+                                <h6 class="mb-1 text-15 text-gray-600">Bar Chart</h6>
+                            </div>
+                            <div class="card-body flex flex-wrap gap-3">
+                                <div id="barGovt" class="w-full" dir="ltr"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane hidden" id="govt-table">
+            <table class="w-full text-sm text-left text-gray-500 ">
+                <thead class="text-sm text-gray-700 dark:text-gray-100 bg-gray-50 dark:bg-zinc-600">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            #
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Year
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Count
+                        </th>
+                    </tr>
+
+                </thead>
+                <tbody id="govt-tbl">
+                    <tr class="animate-pulse">
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                    </tr>
+                    <tr class="animate-pulse">
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                    </tr>
+                    <tr class="animate-pulse">
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                    </tr>
+                    <tr class="animate-pulse">
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                    </tr>
+                    <tr class="animate-pulse">
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            <div class="h-2 bg-slate-400 rounded"></div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
